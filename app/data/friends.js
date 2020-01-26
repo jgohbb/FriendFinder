@@ -1,7 +1,7 @@
 var friends = [
     {
-    name: "1",
-    photo: "https://",
+    name: "Rose",
+    photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     scores:[
         "5",
         "4",
@@ -16,8 +16,8 @@ var friends = [
     ]
 },
     {
-    name: "2",
-    photo: "https://",
+    name: "Albert",
+    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
     scores:[
         "5",
         "4",
@@ -32,8 +32,8 @@ var friends = [
     ]
 },
     {
-    name: "3",
-    photo: "https://",
+    name: "Lydia",
+    photo: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
     scores:[
         "5",
         "4",
@@ -48,8 +48,8 @@ var friends = [
     ]
     },
     {
-    name: "4",
-    photo: "https://",
+    name: "Jason",
+    photo: "https://images.unsplash.com/photo-1559629819-638a8f0a4303?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
     scores:[
         "5",
         "4",
@@ -64,8 +64,8 @@ var friends = [
     ]
     },
     {
-    name: "5",
-    photo: "https://",
+    name: "Kim",
+    photo: "https://images.unsplash.com/photo-1439778615639-28529f7628bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     scores:[
         "5",
         "2",
@@ -80,8 +80,8 @@ var friends = [
     ]
     },
    {
-    name: "6",
-    photo: "https://",
+    name: "Liam",
+    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     scores:[
         "5",
         "4",
@@ -96,8 +96,8 @@ var friends = [
     ]
     },
     {      
-    name: "7",
-    photo: "https://",
+    name: "Charlene",
+    photo: "https://images.unsplash.com/photo-1518679898075-9c1be91261b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80",
     scores:[
         "5",
         "4",
@@ -112,8 +112,8 @@ var friends = [
     ]
     },
     {
-    name: "8",
-    photo: "https://",
+    name: "Marcus",
+    photo: "https://images.unsplash.com/photo-1473492201326-7c01dd2e596b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80",
     scores:[
         "5",
         "4",
@@ -128,8 +128,8 @@ var friends = [
     ]
     },
     {
-    name: "9",
-    photo: "https://",
+    name: "Suri",
+    photo: "https://images.unsplash.com/photo-1561571770-de1eec21bc3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80",
     scores:[
         "5",
         "4",
@@ -144,8 +144,8 @@ var friends = [
     ]
     },
     {
-    name: "10",
-    photo: "https://",
+    name: "Anthony",
+    photo: "https://images.unsplash.com/photo-1548412542-fe1d1181336c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
     scores:[
         "5",
         "4",
