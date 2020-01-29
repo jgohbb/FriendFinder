@@ -5,14 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Friend Finder</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    <title>Friend Finder Survey</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
 </head>
 <body>
 
@@ -34,7 +46,7 @@
                     You are a morning person and like to start early.
                 </label>
                 <div>
-                    <select class="form-control" id="q1">
+                    <select class="chosen-select"  style="color: grey; width:100%; height:35px; border-radius:4px" id="q1">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -51,7 +63,7 @@
                     Neatness is not your thing.
                 </label>
                 <div>
-                    <select class="form-control" id="q2">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q2">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -68,7 +80,7 @@
                     You are very much into romatic movies.
                 </label>
                 <div>
-                    <select class="form-control" id="q3">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q3">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -82,10 +94,10 @@
             <section class="group-survey">
                 <h3>Question 4</h3>
                 <label for="q4" class="control-label">
-                    You are a big sports fan .
+                    You are a big sports fan.
                 </label>
                 <div>
-                    <select class="form-control" id="q4">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q4">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -102,7 +114,7 @@
                     You prefer to cook yourself rather than eat out - cheaper and healthier.
                 </label>
                 <div>
-                    <select class="form-control" id="q5">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q5">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -116,10 +128,10 @@
             <section class="group-survey">
                 <h3>Question 6</h3>
                 <label for="q6" class="control-label">
-                    Adventure is in your blood and you love travel.
+                    Adventure is in your blood and you love to travel.
                 </label>
                 <div>
-                    <select class="form-control" id="q6">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q6">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -136,7 +148,7 @@
                     You respect all cultures and enjoy meeting different people.
                 </label>
                 <div>
-                    <select class="form-control" id="q7">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q7">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -153,7 +165,7 @@
                     You are more of a cat person than a dog.
                 </label>
                 <div>
-                    <select class="form-control" id="q8">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q8">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -170,7 +182,7 @@
                     Saving money is a good virtue that you subscribe to.
                 </label>
                 <div>
-                    <select class="form-control" id="q9">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q9">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -187,7 +199,7 @@
                     Global warming is a major concern and we need to act fast.
                 </label>
                 <div>
-                    <select class="form-control" id="q10">
+                    <select class="chosen-select" style="color: grey; width:100%; height:35px; border-radius:4px" id="q10">
                         <option value="" selected disabled>Select entry</option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -202,7 +214,9 @@
         <br>
 
         <button id="submit" type="submit" class="btn btn-md btn-danger btn-block">
-            <h4><span class="glyphicon glyphicon-send"></span> Submit</h4>
+            <h4><span class="glyphicon glyphicon-send"></span>
+                &nbsp Submit
+            </h4>
         </button>
 
         <br>
@@ -217,106 +231,115 @@
 
     <div id="resultsModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
-
             <div class="modal-content">
-
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title"><strong>Your perfect match found.</strong></h2>
+                   <h2 class="modal-title  text-center"><strong>Your perfect match found.</strong></h2>
+                   <button class="close" data-dismiss="modal">&times;</button>
                 </div>
-
-                <div class="modal-body">
+                <div class="modal-body text-center">
+                    <img id="matchImg" src="" alt="No image found!" style="max-width: 350px;">
                     <h2 id="matchName"></h2>
-                    <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
                 </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <div class="modal-end text-center">
+                    <button type="button" class="btn btn-primary" style="margin-bottom:10px" data-dismiss="modal">Close</button>
                 </div>
-
             </div>
 
         </div>
     </div>
 
 
-    
-
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 
     <script>
+    var allFieldsCompleted;
 
-        var allFieldsCompleted;
+    $(document).ready(function () {
 
-        $(document).ready(function () {
+        $('#submit').on('click', function () {
 
-            $('#submit').on('click', function () {
+            checkIfComplete(function () {
 
-                checkIfComplete(function () {
+                if (allFieldsCompleted) {
+                    collectInputs();
+                }
+                else {
+                    alert('Please complete all fields before submitting!');
+                }
 
-                    if (allFieldsCompleted) {
-                        collectInputs();
-                    }
-                    else {
-                        alert('Please complete all fields before submitting!');
-                    }
-
-                });
             });
         });
+    });
 
-        function checkIfComplete(callback) {
+    function checkIfComplete(callback) {
 
-            // Check through all the questions 
-            var questionsCompleted;
-            $('.form-control').each(function () {
-                if ($(this).val() == "") {
-                    questionsCompleted = false;
-                }
-            })
+        // Check through all the questions 
+        var questionsCompleted;
+        $('.chosen-select').each(function () {
+            if ($(this).val() == "") {
+                questionsCompleted = false;
+            }
+        })
 
             .promise().done(function () {
+
                 if (questionsCompleted == false) {
                     allFieldsCompleted = false;
                 }
+
                else if ($('#name').val().trim() == "") {
                     allFieldsCompleted = false;
                 }
+
                 else if ($('#photo').val().trim() == "") {
                     allFieldsCompleted = false;
                 }
+
                 else {
                     allFieldsCompleted = true;
                 }
+
                 callback();
+
             });
+    };
+
+    // New Friend
+
+    function collectInputs() {
+
+        var newFriend = {
+            name: $('#name').val().trim(),
+            photo: $('#photo').val().trim(),
+            scores: []
         };
 
-        function collectInputs() {
+        var scoresArray = [];
+        $('.chosen-select').each(function () {
+            scoresArray.push(parseInt($(this).val()));
+        });
 
-                var newFriend = {
-                    name: $('#name').val().trim(),
-                    photo: $('#photo').val().trim(),
-                    scores: []
-                };
+        $('div').promise().done(function () {
+            newFriend.scores = scoresArray;
 
-                var scoresArray = [];
-                $('.form-control').each(function () {
-                    scoresArray.push(parseInt($(this).val()));
-                });
+            var currentURL = window.location.origin;
+            $.post(currentURL + "/api/friends", newFriend, function (data) {
+                $('#matchName').text(data.name);
+                $('#matchImg').attr('src', data.photo);
+                $("#resultsModal").modal('toggle');
+            });
 
-                $('div').promise().done(function () {
-                    newFriend.scores = scoresArray;
-            
-                    var currentURL = window.location.origin;
-                    $.post(currentURL + "/api/friends", newFriend, function (data) {
-                        $('#matchName').text(data.name);
-                        $('#matchImg').attr('src', data.photo);
-                        $("#resultsModal").modal('toggle');
-                    });
+        });
+    
+        $(document).on("click", ".modal-end", function () {
+        window.location.reload();  
+        });
+    
+    }
 
-                });
-
-        };
     </script>
 
 </body>
